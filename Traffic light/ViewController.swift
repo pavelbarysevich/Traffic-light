@@ -41,9 +41,9 @@ class ViewController: UIViewController {
         greenTraffic.alpha = lightIsOff
         
         // скругление углов до круга view, если жестко заданы параметры
-        redTraffic.layer.cornerRadius = redTraffic.frame.width / 2
-        yellowTraffic.layer.cornerRadius = yellowTraffic.frame.width / 2
-        greenTraffic.layer.cornerRadius = greenTraffic.frame.width / 2
+        redTraffic.layer.cornerRadius = redTraffic.frame.width / 3
+        yellowTraffic.layer.cornerRadius = yellowTraffic.frame.width / 3
+        greenTraffic.layer.cornerRadius = greenTraffic.frame.width / 3
     }
     
    
